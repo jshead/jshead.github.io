@@ -1,0 +1,44 @@
+baseurl: ""
+languageCode: en-US
+title: "Jaren's Github Pages Site"
+description: "A website built to display my work through the SMU Data Science Program"
+theme: jekyll-theme-cayman
+googleAnalytics: ''
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: GitHub
+      url: https://github.com/jshead
+    - name: Youtube
+      url: https://youtu.be/QOnWDLSzs-w
+    - name: R Shiny
+      url: https://jshead.shinyapps.io/CaseStudy2App/
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: A website built to display my work through the SMU Data Science Program
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    codeFences: no
