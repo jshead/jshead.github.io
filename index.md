@@ -2,10 +2,10 @@
 Here are some links for projects ive worked on:
 
 Case Study 2:
-Presentation - https://youtu.be/QOnWDLSzs-w
-R Shiny App - https://jshead.shinyapps.io/CaseStudy2App/
+- **Shiny App**: https://jshead.shinyapps.io/CaseStudy2App/
+- **Video Presentation**: https://youtu.be/QOnWDLSzs-w
 
-<!DOCTYPE html>
+
 
 <html>
 
